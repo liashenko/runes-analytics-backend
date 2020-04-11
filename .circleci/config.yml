@@ -4,7 +4,10 @@ orbs:
 workflows:
   heroku_deploy:
     jobs:
-      - heroku/deploy-via-git
+      - build
+      - heroku/deploy-via-git:
+          requires:
+            - build
 jobs:
   build:
     docker:
