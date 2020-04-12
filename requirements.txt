@@ -1,2 +1,6 @@
 Flask
+flask_injector
 gunicorn
+oauthlib
+requests
+requests_oauthlib
