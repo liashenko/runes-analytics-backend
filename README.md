@@ -19,3 +19,6 @@ Python3
 #### Running the app
 1. `pip install -r requirements.txt`
 2. `FLASK_APP=runes.app.py flask run`
+
+### Test
+`python -m unittest`
