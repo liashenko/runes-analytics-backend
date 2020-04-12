@@ -1,5 +1,6 @@
 Flask
 flask_injector
+flask-cors
 gunicorn
 oauthlib
 requests
