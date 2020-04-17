@@ -14,11 +14,18 @@ Python3
 1. Create the virtual environment: `python3 -m venv venv`
 2. Activate this environment: `source venv/bin/activate`
 
-#### Running the app
+#### Add .env file to the root directory
+```
+export TWITTER_KEY="XXX"
+export TWITTER_SECRET="XXX"
+export FLASK_ENV=development
+```
+
+#### Running the server
 1. `pip install -r requirements.txt`
 2. `FLASK_APP=runes.app.py flask run`
 
-### Running the tests
+#### Running the tests
 * `python -m unittest`
 
 ## Built With
